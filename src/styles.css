@@ -1,0 +1,9 @@
+html,body,#root{height:100%;margin:0;background:#0f0f10;font-family:Inter,system-ui,Arial;}
+.app{height:100vh;width:100vw;position:relative;overflow:hidden;}
+.footer{position:fixed;left:0;right:0;bottom:6px;padding:8px 12px;text-align:center;color:#d0d0d0;font-size:13px;opacity:0.95;}
+.hud { position: fixed; right: 18px; bottom: 72px; width: 320px; max-width: 40vw; background: rgba(18,18,20,0.82); border-radius: 10px; padding:10px; color: #f8f8f8; box-shadow: 0 6px 30px rgba(0,0,0,0.6); backdrop-filter: blur(6px); }
+.hud h3{margin:0 0 6px 0;font-size:15px}
+.room-btn { display:block; margin:6px 0; padding:8px 10px; background:rgba(255,255,255,0.04); border-radius:6px; color:#fff; text-align:center; cursor:pointer; user-select:none; }
+.panel { font-size:13px; color:#cfcfcf; }
+.chat-panel { position: fixed; left: 18px; bottom: 72px; width: 360px; max-width: 42vw; background: rgba(10,12,15,0.95); border-radius: 10px; padding: 12px; color: #eee; box-shadow: 0 6px 30px rgba(0,0,0,0.6);}
+.chat-panel h3{margin:0 0 8px 0}
